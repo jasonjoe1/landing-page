@@ -9,22 +9,56 @@
     background-color: #1F2937;
     color: #F9FAF8;
     font: "Roboto";
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subheader {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.description,
+.placeholder {
+    flex-basis: 100%;
+    border: 1px solid white;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    display: flex;
+    align-items: center;
 }
 
-li {
-    color: #E5E7EB;
+.logotxt {
     font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
 }
 
 .hero-main {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .content {
