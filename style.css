@@ -16,6 +16,8 @@ body {
     color: #F9FAF8;
     font: "Roboto";
     flex-direction: column;
+    border: 3px solid red;
+    padding: 5px 300px 5px 300px;
 }
 
 .subheader {
@@ -26,9 +28,16 @@ body {
 
 .description,
 .placeholder {
-    flex-basis: 100%;
     border: 1px solid white;
-    width: 300px;
+    justify-content: center;
+    flex: 1;
+}
+
+.placeholder {
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .logo {
