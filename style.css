@@ -1,3 +1,9 @@
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +16,6 @@
     color: #F9FAF8;
     font: "Roboto";
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .subheader {
@@ -23,6 +28,7 @@
 .placeholder {
     flex-basis: 100%;
     border: 1px solid white;
+    width: 300px;
 }
 
 .logo {
@@ -30,13 +36,16 @@
     font-size: 24px;
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
-.logotxt {
+.links {
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-left: auto;
 }
 
 button {
@@ -45,9 +54,9 @@ button {
 }
 
 ul {
-    list-style-type: none;
     display: flex;
     gap: 20px;
+    list-style-type: none;
 }
 
 .hero-main {
@@ -64,9 +73,10 @@ ul {
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-top: 30px;
+    flex: 1 0 auto;
+    min-height: auto;
 }
 
 .boxes {
@@ -77,10 +87,11 @@ ul {
 }
 
 .box {
-    height: 100px;
-    width: 100px;
     border: 2px solid #3882F6;
     border-radius: 10px;
+    flex: 1 1 auto;
+    width: 160px;
+    height: 160px;
 }
 
 .quote-section {
@@ -99,15 +110,23 @@ footer {
     font-style: normal;
 }
 
+.action {
+    background-color: #3882F6;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
 .footer {
     display: flex;
     background-color: #1F2937;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    left: 0;
     justify-content: center;
     align-items: center;
     color: #F9FAF8;
     height: 50px;
+    flex-shrink: 0;
 }
