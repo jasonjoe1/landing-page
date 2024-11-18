@@ -18,7 +18,7 @@ body {
     font: "Roboto";
     flex-direction: column;
     border: 3px solid red;
-    padding: 5px 300px 5px 300px;
+    padding: 5px 200px 5px 200px;
 }
 
 .subheader {
@@ -32,6 +32,8 @@ body {
     border: 1px solid white;
     justify-content: center;
     flex: 1;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .placeholder {
