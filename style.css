@@ -114,10 +114,11 @@ ul {
 .quote-section {
     display: flex;
     background-color: #E5E7EB;
+    flex-direction: column;
     padding: 50px;
 }
 
-.quote-text {
+.quote {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
