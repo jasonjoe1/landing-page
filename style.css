@@ -17,7 +17,6 @@ body {
     color: #F9FAF8;
     font: "Roboto";
     flex-direction: column;
-    border: 3px solid red;
     padding: 5px 150px 5px 150px;
 }
 
@@ -29,7 +28,6 @@ body {
 
 .description,
 .placeholder {
-    border: 1px solid white;
     justify-content: center;
     display: flex;
     flex: 1;
@@ -37,6 +35,12 @@ body {
     height: auto;
     margin-top: 30px;
     margin-bottom: 50px;
+}
+
+.description {
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
 }
 
 .placeholder {
@@ -72,6 +76,9 @@ img {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 5px;
+    padding: 3px 10px;
+    border: none;
 }
 
 ul {
@@ -125,7 +132,7 @@ ul {
     display: flex;
     background-color: #E5E7EB;
     flex-direction: column;
-    padding: 50px;
+    padding: 50px 150px;
     justify-content: center;
     color: #1F2937;
 }
