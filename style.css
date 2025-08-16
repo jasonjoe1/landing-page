@@ -81,6 +81,10 @@ button {
     border: none;
 }
 
+.button-2 {
+    border: white 1px solid;
+}
+
 ul {
     display: flex;
     gap: 20px;
@@ -157,11 +161,18 @@ footer {
     background-color: #3882F6;
     display: flex;
     height: 100px;
-    justify-content: center;
-    margin: 50px;
+    margin: 50px 100px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #F9FAF8;
+}
+
+.action-note1 {
+    flex-grow: 3;
+}
+
+.action-note2 {
+    flex-grow: 1;
 }
 
 .footer {
